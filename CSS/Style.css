@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    font-size: 14px;
+}
+.carouselh3{
+    background-color: aqua;
+}
+.carouselh4{
+    background-color: blanchedalmond;
+}
+.carouselp{
+    color: white;
+    background-color: black;
+}
+.crimage{
+    width: 500px;
+    height: 500px;
+}
+.nav-link{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: black;
+}
+.description{
+    background-color: rgb(50, 50, 50);
+    height: 150px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.wrap {
+    width: 80%;
+}
