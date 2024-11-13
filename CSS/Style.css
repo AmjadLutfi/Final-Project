@@ -36,3 +36,57 @@ body {
 .wrap {
     width: 80%;
 }
+
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; 
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+
+  .show {
+    display: block;
+  }
+
+  
+  
+
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+ 
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
